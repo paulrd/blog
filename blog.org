@@ -1,5 +1,5 @@
 #+STARTUP: content
-#+AUTHOR: Shane Sveller
+#+AUTHOR: Paul Dumais
 #+HUGO_BASE_DIR: .
 #+HUGO_AUTO_SET_LASTMOD: t
 * Pages
@@ -14,11 +14,11 @@
    :EXPORT_FILE_NAME: page-title
    :END:
 
-   Page content test
+   Page content
 
 * Posts
   :PROPERTIES:
-  :EXPORT_HUGO_SECTION: blog
+  :EXPORT_HUGO_SECTION: post
   :END:
 ** Topic                                                             :@topic:
 *** DONE Post Title                                               :post:tags:

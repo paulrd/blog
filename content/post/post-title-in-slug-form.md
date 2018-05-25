@@ -1,8 +1,8 @@
 +++
 title = "Post Title"
-author = ["Shane Sveller"]
+author = ["Paul Dumais"]
 date = 2017-12-19T17:00:00-04:00
-lastmod = 2018-05-25T10:00:44-03:00
+lastmod = 2018-05-25T10:45:43-03:00
 tags = ["post", "tags"]
 categories = ["topic"]
 draft = false

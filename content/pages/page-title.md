@@ -1,7 +1,7 @@
 +++
 title = "Page Title"
-author = ["Shane Sveller"]
-lastmod = 2018-05-25T09:59:00-03:00
+author = ["Paul Dumais"]
+lastmod = 2018-05-25T10:43:28-03:00
 draft = false
 weight = 2001
 noauthor = true
@@ -14,4 +14,4 @@ noread = true
   identifier = "page-title"
 +++
 
-Page content test
+Page content
