@@ -14,7 +14,7 @@
    :EXPORT_FILE_NAME: page-title
    :END:
 
-   Page content
+   Page content test
 
 * Posts
   :PROPERTIES:
@@ -28,7 +28,7 @@
     :EXPORT_FILE_NAME: post-title-in-slug-form
     :END:
 
-    Content
+    Content test
 
     More Content
 
@@ -46,7 +46,8 @@
     :EXPORT_FILE_NAME: draft-post-title
     :END:
 
-    This article *will* be exported but will be marked ~draft = true~ in the front matter.
+    This article *will* be exported but will be marked ~draft = true~ in the
+    front matter. test
 
 * Footnotes
 * COMMENT Local Variables                                           :ARCHIVE:
