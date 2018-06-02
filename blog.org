@@ -1,57 +1,328 @@
-#+STARTUP: content
-#+AUTHOR: Paul Dumais
-#+HUGO_BASE_DIR: .
-#+HUGO_AUTO_SET_LASTMOD: t
-* Pages
-  :PROPERTIES:
-  :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :noauthor true :nocomment true :nodate true :nopaging true :noread true
-  :EXPORT_HUGO_MENU: :menu main
-  :EXPORT_HUGO_SECTION: pages
-  :EXPORT_HUGO_WEIGHT: auto
-  :END:
-** Page Title
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: page-title
-   :END:
+#+hugo_section: post
+#+hugo_base_dir: .
+#+seq_todo: TODO DRAFT DONE
+#+property: header-args :eval never-export
+#+author:
 
-   Page content
-
+* Drafts
 * Posts
-  :PROPERTIES:
+:PROPERTIES:
   :EXPORT_HUGO_SECTION: post
   :END:
-** Topic                                                             :@topic:
-*** DONE Post Title                                               :post:tags:
-    CLOSED: [2017-12-19 Tue 17:00]
-    :PROPERTIES:
-    :EXPORT_DATE: 2017-12-19
-    :EXPORT_FILE_NAME: post-title-in-slug-form
-    :END:
+** DONE Hugo Page Bundles :hugo:org_mode:blogging: 
+CLOSED: [2018-05-24 Thu 13:06]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_SLUG: hugo-bundles
+:EXPORT_HUGO_BUNDLE: 2018/2018-05-24_hugo-bundles
+:END:
 
-    Content test
+I haven't paid much attention to Hugo's [[http://gohugo.io/content-management/page-bundles/][Page Bundles]] since they were introduced,
+but I should have. Page Bundles let me put a blog post's images and other
+assets in the same folder as the original Markdown file. This means the images
+for a post ride along right next to the post rather than /way over there/ in the
+/static/img/2018 folder. Over the long term that should be handy. test
 
-    More Content
 
-    #+BEGIN_SRC bash -l 7 :hl_lines 8
-      echo 'Some source code content'
-      echo 'This line will be highlighted'
-      echo "This one won't"
-    #+END_SRC
+Also, thanks to Kaushal Modi for pointing out that his [[https://github.com/kaushalmodi/ox-hugo/][ox-hugo package]] already supports
+Page Bundles.
 
-**** Post Sub-Heading
-     This is another section within the post.
+#+BEGIN_SRC  org
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_SLUG: hugo-bundles
+:EXPORT_HUGO_BUNDLE: 2018/2018-05-24_hugo-bundles
+#+END_SRC
 
-*** TODO Draft Post Title
-    :PROPERTIES:
-    :EXPORT_FILE_NAME: draft-post-title
-    :END:
+Nice.
 
-    This article *will* be exported but will be marked ~draft = true~ in the
-    front matter. test
+** DONE Packed The First of Many Boxes
+CLOSED: [2018-05-24 Thu 10:57]
+:PROPERTIES:
+:EXPORT_FILE_NAME: packed-the-first-of-many-boxes
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug packed-the-first-of-many-boxes
+:END:
+
+I'm getting married next year. This means I'll be selling my house and
+moving. I've been in this house since 2001, so I'm rather well entrenched.
+
+I'm excited about the change, but I'm not looking forward to going through
+/everything/ I own and deciding what to do with it. I may need a little [[https://www.amazon.com/Life-Changing-Magic-Tidying-Decluttering-Organizing/dp/1607747308/][Marie Kondō magic]].
+
+There's no great rush, but I've just packed the first box of books. Of course I'm
+keeping all the books.
+
+It's begun! test
+
+** DONE Posting with ox-hugo so far
+CLOSED: [2018-05-24 Thu 07:57]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2018-05-24_posts-using-ox-hugo-so-far
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug posts-using-ox-hugo-so-far
+:END:
+
+I'm a few days into using [[https://ox-hugo.scripter.co/][ox-hugo]] for publishing blog posts and so far it's been
+great. There's a bit of a learning curve, but I'm finding it to be worth it.
+
+Here's what the source Org-mode file looks like right now.
+
+I like it!
+
+** DONE Things I Write With :analog:writing:tools:
+CLOSED: [2018-05-23 Wed 21:28]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2018-05-23_things-i-write-with
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug things-i-write-with
+:END:
+
+As someone who loves writing with analog tools, I have always switched willy
+nilly between pens, pencils, notebooks, types of paper, etc. I never seemed to
+find any consistent patterns. The past year has, finally, found me settling on a
+pretty stable set of writing tools.
+
+It goes like this:
+
+For day-to-day note taking, I use a pencil. Go figure, right? I tried using the
+Blackwings, which are wildly popular with the fancy pencil set. They write well
+enough, but they're too long and no one talks about the elephant in the room;
+that big, clumsy, eraser with the sharp metal bits. They look funny and feel
+icky, so I switched to something I have grown to love - the Mitsu-bishi Hi-uni
+and 9850 pencils. They write at least as well as the Blackwings, cost less, and
+hold a point better.
+
+For my daily updates in the Hobonichi Techo, I'm still in love with the Staedtler
+Pigment Liners. The fine, black, crisp line works great on the small pages of
+Tomoe River paper.
+
+And for anything "fancy" like letters, postcards, or long-form journaling, I have
+settled on two fountain pens; The TWSBI Diamond 580 and the Pelikan M400.
+
+I'm pretty happy with these choices. It's been months since I've struggled with
+deciding what to write with. test
+
+** DONE Don MacAskill's AMA Reinforces My Optimism About Flickr :flickr:photography:
+CLOSED: [2018-05-22 Tue 08:48]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2018-05-22_don-macaskill-ama
+:END:
+
+[[https://www.reddit.com/r/photography/comments/8l0pet/im_don_macaskill_ceo_chief_geek_of_smugmug_we/][Don MacAskill, Reddit]]:
+
+#+BEGIN_QUOTE
+But Flickr isn't Instagram and, under my watch, it won't ever be. Flickr is all
+about a long-lasting, deep, abiding photographer community. It's not about
+showing a photo to quickly gather some likes & comments today, only to never
+have that photo be seen again. It's about engaging in visual storytelling that
+lasts forever.
+
+...
+
+I'm not interested in competing with Instagram and Snapchat,
+so if that's your definition of "social" then my answer is no.
+#+END_QUOTE
+
+The possibilities around SmugMug's purchase of Flickr has me so very excited.
+This Reddit AMA with MacAskill makes me feel even better about it. test
+** DONE Blue Apron after Five Years :cooking:
+CLOSED: [2018-05-21 Mon 18:38]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2018-05-21_blue-apron
+:END:
+
+I started receiving meals from [[https://www.blueapron.com/][Blue Apron]] five years ago today. For someone who's been
+living alone, meal delivery services are wonderful. I hate shopping, I never
+know what to shop for anyway, and I'm not a great cook. When I do shop I'm
+forced to buy more than I need and things get thrown away. Or I just buy hot
+dogs and stuff to make nachos and desserts.
+
+Blue Apron meals are always interesting, colorful, and delicious. They take some
+work to prepare, though. It seemed like I was always small-dicing what felt
+like 35 ingredients at every meal. So, I started looking for alternatives.
+
+My sister had been using [[https://www.homechef.com/][HomeChef]] and claimed the meals were super simple. I
+switched, and she was right. They also offered a two-meal/week plan. Blue Apron
+was limited to three meals. HomeChef also allowed me to choose between a nice
+variety of dishes each week. With Blue Apron I just took whatever they sent.
+
+After nearly a year, I checked in on Blue Apron and found that they had made
+things simpler, now offer a two-meal plan, and have a decent selection of
+meals to choose from. I switched back and couldn't be happier.
+
+The photo above is of tonight's dish, "Tokyo Beef & Rice Bowls with Soft-Boiled
+Eggs and Roasted Brocolli." I used their photo here because mine didn't turn out
+looking nearly that good, but it was delicious! So good in fact that it prompted
+me to write this post.
+
+I'm happy to be back with Blue Apron. If you're looking for a meal delivery
+service, I'd give the nod to Blue Apron, but you wouldn't be disappointed with
+HomeChef either.
+
+** DONE Org-Journal May Replace My Daybook.org File :org_mode:journal:
+CLOSED: [2018-05-21 Mon 15:34]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2018-05-21_org-journal-replaces-daybook
+:END:
+The more I use Bastian Bechtold's [[https://github.com/bastibe/org-journal][Org-journal]] the more I like it.
+
+For the past few years I've kept a sort of "Daybook" using a datetree in a
+single Org-mode file. This works pretty well, but it's always felt more suitable
+for shorter entries. I wanted something that would work with longer entries, so
+I tried Org-journal.
+
+Org-journal uses one file per day. I first thought that this would make browsing
+my journal difficult, but it doesn't. I find the built-in search to be easier to
+manage than using sparse trees or other search methods in an ordinary Org file.
+
+I have found myself creating a journal entry using Org-journal for everything,
+including the things I'd normally put into my Daybook.
+
+Org-journal even handles TODOs, and carries forward any unfinished TODOs from
+the previous day. It's kind of like an automated Bullet Journal.
+
+I export things I write each month to PDF files and print them out. (Yes, I'm
+that guy). With separate files for each day, I can do this by running
+something like =cat 2018-05*.org > 2018-05-Journal.org= and export the resulting
+file to a nicely-typeset PDF easily enough.
+
+I'm not quite ready to completely let go of my habit of logging things into
+my Daybook, but the writing is on the wall. test
+
+** DONE Let's try using ox-hugo again :blogging:hugo:org_mode:
+CLOSED: [2018-05-20 Sun 13:52]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2018-05-20-lets-try-ox-hugo-again
+:END:
+
+Last year, while looking for ways to create a blog using Org-mode, I ran across
+[[https://github.com/kaushalmodi/ox-hugo][ox-hugo]]. It was clever, but I was uncomfortable with yet another layer of
+abstration between the source text and the rendered HTML. I may have gotten over
+that fear.
+
+I'm slowly standardizing on using org-mode files for all of my writing. I'll
+hate myself for this if I ever decide to stop using Emacs, but I'll deal with
+that then.
+
+[[https://gohugo.io][Hugo]] has org-support [[https://gohugo.io/content-management/formats/][built-in]], but it only supports a subset of org-mode's
+features. For example, URLs or org-formatted links in footnotes are not rendered
+as links in the final HTML files.
+
+Ox-hugo works via the standard org-mode export dispatcher. The
+result is rendered as a normal Hugo Markdown file. This means that if I decide to stop
+using Org-mode for blog posts, or even move to another markdown-based site
+builder, all of my posts are still there and usable as-is.
+
+Another nice feature is that all of my posts are in a single org-mode file, one
+subtree per post. I like this because I don't have to create a
+properly-formatted markdown file in a specific folder in order to create a post.
+I just set the =EXPORT_FILE_NAME= property and ox-hugo takes in from there.
+
+Of course I'm using a handy capture template, as provided by the ox-hugo docs.
+This lets me type =C-c c h= to quickly create a new draft post.
+
+#+BEGIN_SRC emacs-lisp
+(with-eval-after-load 'org-capture
+  (defun org-hugo-new-subtree-post-capture-template ()
+    "Returns `org-capture' template string for new Hugo post.
+See `org-capture-templates' for more information."
+    (let* ((title (read-from-minibuffer "Post Title: ")) ;Prompt to enter the post title
+           (fname (org-hugo-slug title)))
+      (mapconcat #'identity
+                 `(
+                   ,(concat "* TODO " title)
+                   ":PROPERTIES:"
+                   ,(concat ":EXPORT_FILE_NAME: " fname)
+                   ":END:"
+                   "%?\n")          ;Place the cursor here finally
+                 "\n")))
+
+  (add-to-list 'org-capture-templates
+               '("h"                ;`org-capture' binding + h
+                 "Hugo post"
+                 entry
+                 ;; It is assumed that below file is present in `org-directory'
+                 ;; and that it has a "Blog Ideas" heading. It can even be a
+                 ;; symlink pointing to the actual location of all-posts.org!
+                 (file+olp "all-posts.org" "Blog Ideas")
+                 (function org-hugo-new-subtree-post-capture-template))))
+#+END_SRC
+```
+
+All subtrees marked as =TODO= are considered to be drafts. Toggling the
+status to =DONE= sets "draft = false" and also sets the publish date to the
+current time.
+
+Tags are set just like normal org headings (e.g. "tag1:tag2"). 
+
+Being able to directly publish to my Hugo-based blog while still living in an
+Org-mode is pretty sweet.
+
+** DONE Syncthing :sync:dropbox:
+CLOSED: [2018-05-20 Sun 12:14]
+:PROPERTIES:
+:EXPORT_FILE_NAME: syncthing
+:END:
+
+I've been testing [[https://syncthing.net/][Syncthing]] as a replacement for Dropbox and so far it's been great.
+
+I am currently syncing over 25,000 files in 5 directories across two Macs and one
+Linux machine. It has worked nearly without a hitch. I say "nearly" because
+after changing the case of a few filenames those now show as "out of sync". They
+synced fine but show as unsynced. I assume this is due to case-sensitive vs
+case-insensitive file systems. I'll need to figure this out but it's more an
+inconvenience than a problem[fn:1].
+
+I'm still using Dropbox for things I'm sharing with others, and probably
+always will, but for things I don't want anywhere near a "cloud", Syncthing
+seems like a perfectly fine solution.
+
+
+
+[fn:1] The case-insensitive rename issue is [[https://github.com/syncthing/syncthing/issues/1787][known]] and tricky to solve.
+
+
+
+* Microblog
+:PROPERTIES:
+  :EXPORT_HUGO_SECTION: micro
+  :END:
+** DONE GDPR upsides
+CLOSED: [2018-05-25 Fri 13:15]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2018-05-25_gdpr-upsides
+:EXPORT_TITLE: 
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug gdpr-upsides
+:END:
+
+Companies are deleting the user data they've been collecting and many have also
+decided that it's just not worth collecting it in the first place. I'm happy to
+suffer a week of GDPR privacy notice emails for this.
+** DONE Janus
+CLOSED: [2018-05-23 Wed 16:35]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2018-05-23_janus
+:EXPORT_TITLE: 
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug janus
+:END:
+
+I didn't even know I /wanted/ a motorcycle, but I do.
+** DONE 2018-05-22_See Less Often
+CLOSED: [2018-05-22 Tue 18:44]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2018-05-22-see-less-often
+:EXPORT_TITLE: 
+:END:
+How many times do I have to click "See less often" before I, you know, see it
+less often?
+** DONE Microblog posts on baty.net
+CLOSED: [2018-05-22 Tue 17:08]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2018-05-22_microblog-posts-on-baty-dot-net
+:EXPORT_TITLE: 
+:END:
+I'm thinking about moving small, "microblog" posts back into baty.net. This is
+one of them.
 
 * Footnotes
-* COMMENT Local Variables                                           :ARCHIVE:
+​* COMMENT Local Variables                          :ARCHIVE:
 # Local Variables:
 # eval: (add-hook 'after-save-hook #'org-hugo-export-wim-to-md-after-save :append :local)
-# eval: (auto-fill-mode 1)
 # End:
